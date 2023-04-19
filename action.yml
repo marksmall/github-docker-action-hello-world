@@ -21,6 +21,8 @@ runs:
       shell: bash
     - run: goodbye.sh
       shell: bash
+    - run: entrypoint.sh
+      shell: bash
 
 # # action.yml
 # name: 'Hello World'
